@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Majdalani Inox - Servicios</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+
+<body>
+    <header>
+    <a href="index.html">
+        <div class="logo">
+            <img src="images/logo_majda_inox.png" alt="" style="align-self: auto">
+        </div>
+    </a>
+        <nav>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="materiales.html">Materiales</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        
+        <div class="navbar">
+            <div class="hamburger" onclick="toggleMenu()">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+            <ul class="menu" id="menu">
+              <li><a href="nosotros.html">Nosotros</a></li>
+              <li><a href="materiales.html">Materiales</a></li>
+              <li><a href="servicios.html">Servicios</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+      </div>
+    </header>
+
+    <div class="seccion-servicios">
+      <h2>Nuestros Servicios</h2>
+        
+    <div class="columna">
+    <div class="caja-titulos">
+        <h3>Corte y Planchado</h3>
+        <p>Planchado y corte de chapas en largos y anchos a medida del cliente.</p>
+       
+    </div>
+        <div class="caja-imgs">
+   <img src="images/corte y planchado.jpeg" alt="" style="align-self: center;">
+        </div>
+    <div class="caja-titulos">
+        
+        <h3>Esmerilado</h3>
+        <p>Chapas esmeriladas con protección vinílica en una o ambas caras.</p>
+    </div>
+   <div class="caja-imgs">
+   <img src="images/acero inoxidable esmerilado.jpeg" alt="" style="align-self: center">
+        </div>
+        
+    <div class="caja-titulos">
+        <h3>Flejado</h3>
+        <p>Flejamos bobinas en diversas medidas.</p>
+    </div>
+   <div class="caja-imgs">
+   <img src="images/flejaado.jpeg" alt="" style="align-self: center">
+        </div>
+        
+    <div class="caja-titulos">
+        <h3>Corte de Blanks</h3>
+        <p>Flejado y corte simultáneo de blanks a medida.</p>
+    </div>
+         <div class="caja-imgs">
+   <img src="images/blanjs.jpeg" alt="" style="align-self: center">
+        </div>
+    </div>
+</div>
+    
+
+    <footer id="contactForm">
+        <h2 style="color:#52A5EF;">MAJDALANI INOX S.A.</h2>
+        
+        <p style="color:#52A5EF;">ventas@majdainox.com</p>
+        
+        <p style="color:#52A5EF;">011 5031 3000</p>
+    </footer>
+    
+        <script>
+    function toggleMenu() {
+  var menu = document.getElementById("menu");
+  if (menu.style.display === "none") {
+    menu.style.display = "block";
+  } else {
+    menu.style.display = "none";
+  }
+}
+
+    </script>
+</body>
+</html>
